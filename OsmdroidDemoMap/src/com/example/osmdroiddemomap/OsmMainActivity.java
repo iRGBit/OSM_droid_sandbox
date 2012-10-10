@@ -20,6 +20,7 @@ public class OsmMainActivity extends Activity {
         mMapView = (MapView) findViewById(R.id.mapview);
         mMapView.setTileSource(TileSourceFactory.MAPNIK);
         mMapView.setBuiltInZoomControls(true);
+        mMapView.setMultiTouchControls(true);
         mMapController = mMapView.getController();
         mMapController.setZoom(13);
         GeoPoint gPt = new GeoPoint(51500000, -150000);
