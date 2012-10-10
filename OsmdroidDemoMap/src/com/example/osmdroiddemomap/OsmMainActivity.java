@@ -23,7 +23,7 @@ public class OsmMainActivity extends Activity {
         mMapView.setMultiTouchControls(true);
         mMapController = mMapView.getController();
         mMapController.setZoom(13);
-        GeoPoint gPt = new GeoPoint(51500000, -150000);
+        GeoPoint gPt = new GeoPoint(51921700, 4481100);
         //Centre map near to Hyde Park Corner, London
         mMapController.setCenter(gPt);
 
