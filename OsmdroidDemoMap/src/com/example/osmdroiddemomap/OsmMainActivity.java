@@ -24,8 +24,10 @@ public class OsmMainActivity extends Activity {
         mMapController = mMapView.getController();
         mMapController.setZoom(13);
         GeoPoint gPt = new GeoPoint(51921700, 4481100);
-        //Centre map near to Hyde Park Corner, London
+        //Centre map near Rotterdam center
         mMapController.setCenter(gPt);
 
+        
+        //Implement into activity!!!
     }
 }
